@@ -52,23 +52,22 @@ h1 { max-width: 720px; margin-bottom: 1.25rem; font-size: clamp(3rem, 7vw, 6.5re
 h2 { margin-bottom: 0; font-size: clamp(2.35rem, 4.8vw, 4.5rem); line-height: .98; }
 .section-note { max-width: 350px; margin-bottom: .25rem; color: #68574d; font-size: .9rem; }
 .scent-grid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
-.scent-card { position: relative; display: flex; flex-direction: column; min-height: 360px; padding: 1.5rem 1.35rem 1.25rem; overflow: hidden; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); background: #fffdf9; }
+.scent-card { position: relative; display: flex; flex-direction: column; min-height: 390px; padding: 1.5rem 1.35rem 1.25rem; overflow: hidden; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); background: #fffdf9; }
 .scent-card-featured { color: #fff; background: var(--coffee); }
-.scent-number { margin: 0; color: #907164; font-size: .72rem; font-weight: 700; letter-spacing: .1em; }
-.scent-card-featured .scent-number { color: #e8c8a8; }
-.scent-bottle { position: absolute; top: .9rem; right: .7rem; width: 5rem; height: 7.85rem; background-image: url("assets/perfume-bottle-sprite.png"); background-repeat: no-repeat; background-size: 500% auto; filter: drop-shadow(0 10px 9px rgba(51, 27, 16, .16)); }
+.scent-bottle { position: absolute; top: 7.65rem; right: 1rem; width: 5rem; height: 7.85rem; background-image: url("assets/perfume-bottle-sprite.png"); background-repeat: no-repeat; background-size: 500% auto; filter: drop-shadow(0 10px 9px rgba(51, 27, 16, .16)); }
 .bottle-coco { background-position: 0% 0; }
 .bottle-nancy { background-position: 25% 0; }
 .bottle-good-girl { background-position: 50% 0; }
 .bottle-baccarat { background-position: 75% 0; }
 .bottle-flora { background-position: 100% 0; }
-.scent-card h3 { max-width: 100%; margin: auto 0 0; font-size: clamp(1.7rem, 2.8vw, 2.25rem); line-height: 1; }
+.scent-card h3 { max-width: 100%; margin: 0; font-size: clamp(1.7rem, 2.8vw, 2.25rem); line-height: 1; }
 .scent-style { margin: .55rem 0 0; color: #735f54; font-size: .82rem; }
 .scent-card-featured .scent-style { color: #e7d2c3; }
-.scent-card .price { margin: 1.4rem 0 0; color: #8e705f; font-size: .72rem; font-weight: 700; letter-spacing: .03em; }
+.scent-card .price { margin: auto 0 0; color: #8e705f; font-size: .72rem; font-weight: 700; letter-spacing: .03em; }
 .scent-card-featured .price { color: #f1cda9; }
 .scent-card > a { display: flex; justify-content: space-between; margin-top: .65rem; padding-top: .85rem; border-top: 1px solid currentColor; font-size: .76rem; font-weight: 700; letter-spacing: .02em; }
 .request-card { background: #f1e4d7; }
+.request-card > a { margin-top: auto; }
 .section-dark { color: #fff8f0; background: var(--ink); }
 .how-layout { display: grid; grid-template-columns: .9fr 1.1fr; gap: clamp(3rem, 10vw, 11rem); align-items: center; }
 .how-intro > p:last-child { max-width: 350px; margin: 1.5rem 0 0; color: #d8c4b4; }
@@ -125,8 +124,8 @@ details p { max-width: 430px; margin: .85rem 2rem 0 0; color: #69564a; font-size
   .section-heading, .how-layout, .stand-card { grid-template-columns: 1fr; display: grid; gap: 1.5rem; }
   .section-note { margin: 0; }
   .scent-grid { grid-template-columns: repeat(2, 1fr); }
-  .scent-card { min-height: 315px; padding: 1.35rem 1.2rem 1.1rem; }
-  .scent-bottle { top: .65rem; right: .4rem; width: 4.3rem; height: 6.75rem; }
+  .scent-card { min-height: 350px; padding: 1.35rem 1.2rem 1.1rem; }
+  .scent-bottle { top: 7.2rem; right: .5rem; width: 4.3rem; height: 6.75rem; }
   .scent-card h3 { font-size: 1.5rem; }
   .scent-style { margin-top: .45rem; }
   .scent-card .price { margin-top: 1.15rem; }
@@ -138,5 +137,5 @@ details p { max-width: 430px; margin: .85rem 2rem 0 0; color: #69564a; font-size
   .footer-mark { grid-row: auto; }
   .site-footer a:not(.wordmark), .copyright { grid-column: auto; justify-self: start; }
 }
-@media (max-width: 400px) { .scent-grid { grid-template-columns: 1fr; } .scent-card { min-height: 285px; } }
+@media (max-width: 400px) { .scent-grid { grid-template-columns: 1fr; } .scent-card { min-height: 330px; } }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition-duration: .01ms !important; } }
