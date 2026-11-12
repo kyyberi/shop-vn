@@ -152,8 +152,8 @@ details p { max-width: 430px; margin: .85rem 2rem 0 0; color: #69564a; font-size
 }
 @media (max-width: 400px) { .scent-grid { grid-template-columns: 1fr; } .scent-card { min-height: 330px; } }
 .scent-portrait { position: absolute; top: .5rem; right: .5rem; width: 225px; max-width: 75%; height: 150px; object-fit: contain; object-position: right top; pointer-events: none; }
-.scent-card h3 { position: relative; max-width: 52%; min-height: 165px; font-size: clamp(1.4rem, 2.4vw, 2rem); line-height: 1.12; overflow-wrap: normal; }
-.scent-card .scent-style { position: relative; margin: 1rem 0; }
+.scent-card h3 { position: relative; max-width: 52%; margin-bottom: 0; font-size: clamp(1.4rem, 2.4vw, 2rem); line-height: 1.12; overflow-wrap: normal; }
+.scent-card .scent-style { position: relative; max-width: 55%; margin: .85rem 0 1.25rem; font-size: .9rem; line-height: 1.55; }
 .scent-card .price { margin-top: auto; padding-top: 1.25rem; }
 .request-card h3 { max-width: 100%; min-height: 0; }
 @media (max-width: 560px) { .scent-grid { grid-template-columns: 1fr; } }
