@@ -31,6 +31,8 @@ h1, h2, h3, p { margin-top: 0; }
 h1, h2, h3 { font-family: var(--serif); letter-spacing: -.045em; }
 h1 { max-width: 720px; margin-bottom: 1.25rem; font-size: clamp(3rem, 7vw, 6.5rem); line-height: .98; }
 .hero-copy { max-width: 525px; margin-bottom: 2rem; color: rgba(255,250,243,.88); font-size: clamp(.98rem, 1.5vw, 1.12rem); }
+.hero-availability { display: flex; align-items: center; gap: .45rem; margin: -1.05rem 0 1.1rem; color: #f0c798; font-size: .72rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.hero-availability span { color: #f6b16f; font-size: .55rem; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: .75rem; }
 .button { display: inline-flex; align-items: center; justify-content: center; gap: 1.4rem; min-height: 3.1rem; padding: .75rem 1rem  .75rem 1.25rem; font-size: .84rem; font-weight: 700; transition: transform .2s, background .2s; }
 .button:hover { transform: translateY(-2px); }
