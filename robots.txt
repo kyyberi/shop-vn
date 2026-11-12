@@ -1,2 +1,6 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://dubaioilshop.com/sitemap.xml
+
+# AI-readable site summary: https://dubaioilshop.com/llms.txt
