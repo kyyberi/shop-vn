@@ -115,10 +115,12 @@ details p { max-width: 430px; margin: .85rem 2rem 0 0; color: #69564a; font-size
 .final-cta h2 { margin-bottom: 2rem; }
 .final-cta .eyebrow { color: #f6d0a8; }
 .button-light { color: var(--ink); background: #fff3e5; }
-.site-footer { display: grid; grid-template-columns: 1fr auto; gap: .8rem 2rem; padding-top: 2rem; padding-bottom: 2rem; color: #6f594d; font-size: .8rem; }
+.site-footer { display: grid; grid-template-columns: 1fr auto; gap: 1rem 2rem; align-items: center; padding: 4rem max(1.5rem, calc((100vw - 1120px) / 2)); color: #f5e6d4; font-size: .9rem; background: linear-gradient(90deg, rgba(15,10,8,.94), rgba(15,10,8,.78)), url("assets/hero-slide-3.webp") center 45% / cover; }
+.footer-mark img { display: block; width: min(310px, 75vw); height: auto; }
+.site-footer .footer-mark { padding: 1rem 0; margin-bottom: 1.5rem; }
 .footer-mark { color: var(--ink); grid-row: span 2; align-self: center; font-size: 1.35rem; }
 .site-footer p, .site-footer a { margin: 0; }
-.site-footer a:not(.wordmark) { justify-self: end; color: var(--ink); font-weight: 700; }
+.site-footer a:not(.wordmark) { justify-self: end; color: #f7d2aa; font-weight: 700; }
 .copyright { grid-column: 2; justify-self: end; }
 @media (max-width: 760px) {
   .container { width: min(100% - 2.25rem, 1120px); }
@@ -151,7 +153,7 @@ details p { max-width: 430px; margin: .85rem 2rem 0 0; color: #69564a; font-size
   .stand-art { min-height: 330px; }
   .faq-grid { grid-template-columns: 1fr; }
   details:nth-child(odd) { margin-right: 0; }
-  .site-footer { grid-template-columns: 1fr; gap: 1rem; }
+  .site-footer { grid-template-columns: 1fr; gap: 1.75rem; padding-top: 4.5rem; padding-bottom: 4.5rem; }
   .footer-mark { grid-row: auto; }
   .site-footer a:not(.wordmark), .copyright { grid-column: auto; justify-self: start; }
 }
