@@ -5,7 +5,7 @@
   --sand: #f5ede1;
   --paper: #fffdf9;
   --line: rgba(36, 25, 20, .16);
-  --serif: "Playfair Display", Georgia, serif;
+  --serif: "Space Grotesk", Arial, sans-serif;
   --sans: "DM Sans", Arial, sans-serif;
 }
 * { box-sizing: border-box; }
@@ -54,12 +54,12 @@ h2 { margin-bottom: 0; font-size: clamp(2.35rem, 4.8vw, 4.5rem); line-height: .9
 .scent-card-featured { color: #fff; background: var(--coffee); }
 .scent-number { color: #907164; font-size: .72rem; font-weight: 700; letter-spacing: .1em; }
 .scent-card-featured .scent-number { color: #e8c8a8; }
-.scent-orb { position: absolute; right: 1.1rem; top: 1.15rem; width: 4.2rem; height: 4.2rem; border-radius: 50%; filter: blur(.1px); }
-.rose { background: radial-gradient(circle at 34% 28%, #fad1bd, #b1675e 47%, #5d3030); }
-.amber { background: radial-gradient(circle at 35% 30%, #ffe3a6, #bc7132 48%, #624025); }
-.plum { background: radial-gradient(circle at 35% 30%, #efbed6, #853c62 48%, #402335); }
-.crystal { background: radial-gradient(circle at 36% 30%, #fffdf2, #e0bdab 42%, #a96b53 78%); }
-.flora { background: radial-gradient(circle at 36% 30%, #fbd5a7, #d37f70 49%, #83584a); }
+.scent-bottle { position: absolute; top: .7rem; right: .55rem; width: 5.2rem; height: 8.2rem; background-image: url("assets/perfume-bottle-sprite.png"); background-repeat: no-repeat; background-size: 500% auto; filter: drop-shadow(0 10px 9px rgba(51, 27, 16, .16)); }
+.bottle-coco { background-position: 0% 0; }
+.bottle-nancy { background-position: 25% 0; }
+.bottle-good-girl { background-position: 50% 0; }
+.bottle-baccarat { background-position: 75% 0; }
+.bottle-flora { background-position: 100% 0; }
 .scent-card h3 { position: absolute; left: 1.35rem; bottom: 6.35rem; max-width: 75%; margin: 0; font-size: clamp(1.7rem, 2.8vw, 2.25rem); line-height: 1; }
 .scent-style { position: absolute; bottom: 4.55rem; margin: 0; color: #735f54; font-size: .82rem; }
 .scent-card-featured .scent-style { color: #e7d2c3; }
@@ -126,6 +126,7 @@ details p { max-width: 430px; margin: .85rem 2rem 0 0; color: #69564a; font-size
   .section-note { margin: 0; }
   .scent-grid { grid-template-columns: repeat(2, 1fr); }
   .scent-card { min-height: 275px; }
+  .scent-bottle { top: .5rem; right: .35rem; width: 4.4rem; height: 7rem; }
   .scent-card h3 { bottom: 5.6rem; font-size: 1.5rem; }
   .scent-style { bottom: 3.85rem; }
   .scent-card .price { bottom: 2.2rem; }
